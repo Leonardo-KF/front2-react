@@ -8,7 +8,7 @@ export interface LoadingContextProps {
 
 const defaultValues = {
   loading: false,
-  changeLoading: (isLoading: boolean) => {
+  changeLoading: () => {
     return;
   },
 };

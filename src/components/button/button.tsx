@@ -36,7 +36,7 @@ export function Button({ name, color, type, onSubmit }: ButtonProps) {
         width: width,
         height: height,
       }}
-      onClick={(e) => {
+      onClick={() => {
         changeLoading(true);
         onSubmit();
         setTimeout(() => {

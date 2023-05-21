@@ -18,6 +18,7 @@ export function App() {
       nome: event.currentTarget.nome.value,
       email: event.currentTarget.email.value,
     };
+    console.log(payload);
     setTimeout(() => {
       console.log(loading);
       changeLoading(false);
