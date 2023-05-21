@@ -1,0 +1,10 @@
+.customButton {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
